@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./styles.css" />
     <title>Homepage</title>
   </head>
@@ -14,6 +16,7 @@
       aria-describedby="about-description"
     >
       <div class="about-section__background"></div>
+
       <div class="color-mode-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <title>theme-light-dark</title>
@@ -23,32 +26,31 @@
         </svg>
       </div>
       <div class="about-section__card">
-        <div class="about-section__text--wrapper">
-          <div class="pfp-container">
-            <h1>Tirso Samalungo</h1>
-            <img
-              src="./images/FB_IMG_16811625374214368.jpeg"
-              alt="tirso samalungo"
-              srcset="
-                ./images/pfp-135.jpeg 135w,
-                ./images/pfp-315.jpeg 315w,
-                ./images/pfp-715.jpeg 715w
-              "
-              sizes="
-              (max-width: 480px) 100vw,
-              (max-width: 768px) 66vw,
-              (min-width: 769px) 33vw,
-              "
-            />
-          </div>
+        <div class="pfp-container">
+          <h1>Tirso Samalungo</h1>
+          <img
+            src="./images/FB_IMG_16811625374214368.jpeg"
+            alt="tirso samalungo"
+            srcset="
+              ./images/pfp-135.jpeg 135w,
+              ./images/pfp-315.jpeg 315w,
+              ./images/pfp-715.jpeg 715w
+            "
+            sizes="
+            (max-width: 480px) 100vw,
+            (max-width: 768px) 66vw,
+            (min-width: 769px) 33vw,
+            "
+          />
+        </div>
+        <div class="about-section__text">
           <h2 id="about-heading">About me</h2>
           <p id="about-description">
             I am an aspiring software developer currently following The Odin
             Project's full-stack curriculum. I am a full-time English (as a
-            second language) teacher and a part-time computer science student. I
-            love animals, singing, and writing
+            second language) teacher and a part-time computer science student
+            who loves animals, singing, and writing
           </p>
-
           <div class="icon-wrapper">
             <a
               href="https://github.com/GreyTearsDev"
@@ -85,6 +87,7 @@
               href="https://twitter.com/greytearsdev"
               target="_blank"
               title="This link will open in a new tab"
+              id="x"
             >
               <svg viewBox="0 0 128 128">
                 <path
