@@ -31,6 +31,14 @@ h3 {
   overflow-wrap: break-word;
 }
 
+:root {
+  --clr-light: #f8f5f2;
+  --clr-dark: #222525;
+  --clr-primary: #078080;
+  --clr-secondary: #f45d48;
+  --clr-tertiary: #f8f5f2;
+}
+
 .container {
   border: 1px solid rgb(169, 14, 14);
   max-width: 1536px;
