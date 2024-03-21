@@ -7,7 +7,12 @@
     <title>Homepage</title>
   </head>
   <body>
-    <section class="about-section">
+    <section
+      class="about-section"
+      role="region"
+      aria-labelledby="about-heading"
+      aria-describedby="about-description"
+    >
       <div class="about-section__background"></div>
       <div class="about-section__card">
         <div class="about-section__text--wrapper">
@@ -28,8 +33,8 @@
               "
             />
           </div>
-          <h2>About me</h2>
-          <p>
+          <h2 id="about-heading">About me</h2>
+          <p id="about-description">
             I am an aspiring software developer currently following The Odin
             Project's full-stack curriculum. I am a full-time English (as a
             second language) teacher and a part-time computer science student. I
