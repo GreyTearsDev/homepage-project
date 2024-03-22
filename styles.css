@@ -172,6 +172,14 @@ h3 {
     margin: 3rem 0 1rem 0;
   }
 
+  .about-section__text {
+    font-size: 0.8rem;
+  }
+
+  .pfp-container h1 {
+    font-size: 1.2rem;
+  }
+
   .about-section__background {
     clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 60%);
   }
