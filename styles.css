@@ -93,6 +93,10 @@ h3 {
   gap: 1rem;
 }
 
+svg:hover {
+  transform: scale(120%);
+}
+
 .about-section__text .icon-wrapper {
   margin-top: 1rem;
 }
