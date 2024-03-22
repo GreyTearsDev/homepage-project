@@ -79,12 +79,7 @@ h3 {
   min-height: 25%;
   max-width: 60ch;
   padding: 4rem;
-  /* padding-left: 4vw; */
   box-shadow: var(--shadow-general);
-}
-
-.about-section .icon-wrapper {
-  align-items: self-end;
 }
 
 .icon-wrapper {
@@ -92,13 +87,12 @@ h3 {
   max-width: 80px;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
+  position: relative;
 }
 
 .pfp-container {
   position: relative;
-  /* transform: scale(155%); */
   box-shadow: var(--shadow-general);
-  /* max-width: 300px; */
 }
 
 .pfp-container h1 {
@@ -117,107 +111,16 @@ h3 {
   border: 1px solid rgb(232, 29, 29);
   max-width: 1440px;
   margin-inline: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
-/* @media (max-width: 1440px) {
-  .container {
-    max-width: 1024px;
-  }
-
-  .pfp-container h1 {
-    font-size: 1.1rem;
-  }
-
-  .pfp-container {
-    transform: scale(150%);
-    margin-right: -30px;
-    max-width: calc(50% + 30px);
-  }
-  .about-section__text {
-    padding-left: 6rem;
-  }
-} */
-
-/* @media (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
-  .pfp-container {
-    transform: scale(220%);
-    margin-right: -30px;
-    max-width: calc(50% + 30px);
-  }
-  .pfp-container h1 {
-    font-size: 0.6rem;
-  }
-  .about-section__text {
-    padding-left: 6rem;
-  }
-} */
-
-/* @media (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
-  .pfp-container {
-    transform: scale(240%);
-    margin-right: -30px;
-    max-width: calc(50% + 30px);
-  }
-
-  .pfp-container h1 {
-    background-color: transparent;
-    color: var(--clr-secondary);
-    left: 5px;
-  }
-} */
-
-/* @media (max-width: 768px) {
-  .container {
-    max-width: 425px;
-  }
-
+@media (max-width: 1024px) {
   .about-section__card {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .pfp-container {
-    transform: scale(100%);
-    margin-top: -8rem;
-    position: relative;
-    top: 8rem;
-    margin-right: 0;
+    max-width: 800px;
   }
 
   .about-section__text {
-    height: 50%;
-    padding: 12rem 2rem 4rem 2rem;
-    box-shadow: var(--shadow-general);
-    font-size: 0.8rem;
-    text-align: center;
-    border: 1px solid red;
+    max-width: 50ch;
+    padding: 2rem;
+    min-height: 40%;
   }
-
-  .icon-wrapper {
-    padding-top: 1rem;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-  }
-} */
-/* 
-@media (max-width: 640px) {
-  .container {
-    max-width: 475px;
-  }
-} */
-
-/* @media (max-width: 475px) {
-  .container {
-    max-width: 100%;
-  }
-} */
+}
