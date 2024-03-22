@@ -161,3 +161,18 @@ h3 {
     justify-content: center;
   }
 }
+
+@media (max-width: 425px) {
+  .about-section {
+    max-width: 375px;
+  }
+
+  .about-section__card {
+    max-width: 70%;
+    margin: 3rem 0 1rem 0;
+  }
+
+  .about-section__background {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 60%);
+  }
+}
