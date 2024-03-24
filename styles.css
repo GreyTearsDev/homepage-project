@@ -27,6 +27,7 @@ svg {
   display: inline;
   max-width: 1.5rem;
   transition: var(--transition-transform);
+  fill: var(--clr-secondary);
 }
 
 p,
@@ -153,6 +154,45 @@ main {
 .project__info--top .icon-wrapper {
   position: relative;
   top: 3px;
+}
+
+footer {
+  display: flex;
+  padding: 4rem;
+  background-color: var(--clr-dark);
+  justify-content: space-between;
+  gap: 2rem;
+  color: var(--clr-light);
+  fill: var(--clr-secondary);
+}
+
+picture {
+  max-width: 500px;
+}
+
+.text-icon__container {
+  display: flex;
+}
+
+.text-icon__container svg {
+  transition: none;
+}
+
+.contact-info-wrapper {
+  position: relative;
+}
+
+.contact-info-wrapper,
+footer .icon-wrapper {
+  margin-top: 2rem;
+}
+
+footer .icon-wrapper {
+  position: absolute;
+}
+
+.contact-info h2 {
+  margin-bottom: 2rem;
 }
 
 .container {
