@@ -120,7 +120,7 @@ svg:hover {
   text-align: center;
 }
 
-.main-section {
+main {
   padding: 2rem 4rem 4rem;
 }
 .projects-container {
@@ -209,7 +209,7 @@ svg:hover {
 }
 
 @media (max-width: 425px) {
-  .about-section {
+  .about-section__card {
     max-width: 375px;
   }
 
