@@ -176,6 +176,8 @@ picture {
 
 .text-icon__container svg {
   transition: none;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
 }
 
 .contact-info-wrapper {
