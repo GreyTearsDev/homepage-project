@@ -161,7 +161,7 @@ footer {
   padding: 4rem;
   background-color: var(--clr-dark);
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3rem;
   color: var(--clr-light);
   fill: var(--clr-secondary);
 }
@@ -270,5 +270,11 @@ footer .icon-wrapper {
 
   .about-section__background {
     clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 60%);
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 6rem;
+    padding-top: 2rem;
   }
 }
