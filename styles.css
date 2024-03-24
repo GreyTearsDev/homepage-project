@@ -118,6 +118,15 @@ svg:hover {
   text-align: center;
 }
 
+.main-section {
+  padding: 4rem;
+}
+.projects-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
 .container {
   border: 1px solid rgb(232, 29, 29);
   max-width: 1440px;
