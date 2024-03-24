@@ -26,7 +26,7 @@ picture {
 svg {
   display: inline;
   max-width: 1.5rem;
-  transition: transform 100ms ease-in-out;
+  transition: var(--transition-transform);
 }
 
 p,
@@ -44,6 +44,8 @@ h3 {
   --clr-tertiary: #f8f5f2;
 
   --shadow-general: 6px 6px 8px rgba(0, 0, 0, 0.171);
+  --scale-grow: scale(120%);
+  --transition-transform: transform 100ms ease-in-out;
 }
 
 .about-section {
@@ -94,7 +96,7 @@ h3 {
 }
 
 svg:hover {
-  transform: scale(120%);
+  transform: var(--scale-grow);
 }
 
 .about-section__text .icon-wrapper {
@@ -119,12 +121,37 @@ svg:hover {
 }
 
 .main-section {
-  padding: 4rem;
+  padding: 2rem 4rem 4rem;
 }
 .projects-container {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.project {
+  box-shadow: var(--shadow-general);
+  border: 0.5px solid #22252538;
+  transition: var(--transition-transform);
+}
+
+.project:hover {
+  transform: scale(102%);
+}
+
+.project__info {
+  padding: 1rem 1rem 2rem;
+}
+
+.project__info--top {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__info--top .icon-wrapper {
+  position: relative;
+  top: 3px;
 }
 
 .container {
