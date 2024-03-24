@@ -126,6 +126,7 @@ svg:hover {
 .projects-container {
   display: grid;
   gap: 2rem;
+  justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
@@ -169,6 +170,10 @@ svg:hover {
     max-width: 50ch;
     padding: 2rem;
     min-height: 40%;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   }
 }
 
