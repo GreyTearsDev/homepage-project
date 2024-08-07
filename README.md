@@ -1,7 +1,7 @@
 
 # Homepage Project
 
-A resposinve and a11y friendly webpage build with HTML and vanilla CSS
+A responsive and a11y friendly webpage build with HTML and vanilla CSS
 
 
 ## Live Preview
